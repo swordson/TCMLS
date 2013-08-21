@@ -1,0 +1,59 @@
+ID|语义关联名称|语义关联名称（英）|定义|定义（英）|上下位类关系（类号）|被动语义关联
+1|等级关系链|isa||||
+2|相关关系链|associated_with|有重要的或显著的关系|has a significant or salient relationship to||
+3|物理上相关|physically_related_to|由于某些物理的属性或特征而相关|Related by virtue of some physical attribute or characteristic.|相关关系链|
+4|由…汇合|tributary_of|合并、并入。例如，血管的汇合。|Merges with. For example, the confluence of veins.|物理上相关|
+5|…的部分|part_of|有一个或更多个物理单位组成、构成某些较大的整体；包括…的成分，…的部分，…的片段，…的部件，…的层等。|Composes, with one or more other physical units, some larger whole. This includes component of, division of, portion of, fragment of, section of, and layer of.|物理上相关|由…构成\组成
+6|分支|branch_of|出现于分开的部分。例如，动脉的分支。|Arises from the division of. For example, the arborization of arteries.|物理上相关|
+7|由…组成|consists_of|一个整体的结构上的组成部分或者某种材料或物质的构成部分。包括由…组成，由…构成，由…形成等。|Is structurally made up of in whole or in part of some material or matter. This includes composed of, made of, and formed of.|物理上相关|…的组成部分
+8|…成份|ingredient_of|组成成分或构成成分。指一个部分的要素、成分。|Is a component of, as in a constituent of a preparation.|物理上相关|由…构成\组成
+9|包含|contains|可容纳或者是一个贮藏液体或其他物质的容器。包括被…充满，可容纳，被…占用等。|Holds or is the receptacle for fluids or other substances. This includes is filled with, holds, and is occupied by.|物理上相关|充满,占用
+10|使…相互联系|interconnects|使两个或多个物理单元连接或结合在一起。包括结合，连接，连结，用关节连接，分离？桥梁连接等。|Serves to link or join together two or more other physical units. This includes joins, links, conjoins, articulates, separates, and bridges.|物理上相关|
+11|与…相连|connected_to|直接地附着在另一个物理单元上，比如肌腱与肌肉相连。包括附着在…上，固定在…上。|Directly attached to another physical unit as tendons are connected to muscles. This includes attached to and anchored to.|物理上相关|与…相连
+12|空间上相关|spatially_related_to|空间区域上的相关。|Related by place or region.|相关关系链|
+13|位于…|location_of|位置、场所，一个实体的位置或一个过程的场所。|The position, site, or region of an entity or the site of a process.|空间上相关|
+14|与…相邻|adjacent_to|与另一个物理单位紧密地相连的，邻接的，没有其他的同样的结构介入其中。包括毗邻，邻接，邻近的，并列的，紧密联结的。|Close to, near or abutting another physical unit with no other structure of the same kind intervening. This includes adjoins, abuts, is contiguous to, is juxtaposed, and is close to.|空间上相关|与…相邻
+15|包围-周围|surrounds|确立分界线，定义另一个物理结构的界限。包括界限，范围，界线，围住、在…周围化线。|Establishes the boundaries for, or defines the limits of another physical structure. This includes limits, bounds, confines, encloses, and circumscribes.|空间上相关|被...包围
+16|穿过|traverses|穿过或者延伸越过另一个物理结构或区域。包括从其上跨过和从其中穿过。|Crosses or extends across another physical structure or area. This includes crosses over and crosses through.|空间上相关|被...穿过
+17|与…相表里|inter_exterior_and_interior_with|脏腑以及经络之间的阴阳表里关系，反映的是脏腑经络功能上的相互影响。||影响|与…相表里
+18|功能上相关|functionally_related_to|由于某些功能或者活动而相关。|Related by the carrying out of some function or activity.|相关关系链|
+19|影响|affects|改变或影响现有的条件、状态、情形、实体产生一种直接的效果。包括起作用，改变，影响，预先安排，刺激、促进，管理、控制、调节，压下，阻止，提高、增强，起作用、有助于、促成，引导、致使，更改、修改等。|Produces a direct effect on. Implied here is the altering or influencing of an existing condition, state, situation, or entity. This includes has a role in, alters, influences, predisposes, catalyzes, stimulates, regulates, depresses, impedes, enhances, contributes to, leads to, and modifies.|功能上相关|被…影响
+20|管理|manages|管理，有助于照顾个体或由个体组成的团体|Administers, or contributes to the care of an individual or group of individuals.|影响|被…管理
+21|治疗|treats|提供一种治愈或改善症状的疗法|Applies a remedy with the object of effecting a cure or managing a condition.|影响|被…治疗
+22|干扰|disrupts|改变或影响一个已经存在的条件、状态或情形，产生一种消极的影响。|Alters or influences an already existing condition, state, or situation. Produces a negative effect on.|影响|被…干扰
+23|并发|complicates|引起变得更严重或更复杂或产生一种不利的结果。|Causes to become more severe or complex or results in adverse effects.|影响|
+24|与…相互作用|interacts_with|与…一起产生效果，起作用|Acts, functions, or operates together with|影响|与…相互作用
+25|预防|prevents|停止、阻碍或消除一种行为或状态。|Stops, hinders or eliminates an action or condition.|影响|
+27|带来-造成|brings_about|作用或影响一个实体|Acts on or influences an entity.|功能上相关|被带来\造成
+28|产生|produces|提出、带来、产生、创造。包括出产、生长、生产，分泌，放射、发出，用生物学的方法合成，产生，释放，放出，创造、引起、造成等。|Brings forth, generates or creates. This includes yields, secretes, emits, biosynthesizes, generates, releases, discharges, and creates.|带来-造成|被...产生
+29|引起|causes|引起一种状态或结果。这里所指的是一种原因，例如，一种药物或有机体产生的结果。包括引起，导致，唤起，病变的原因。|Brings about a condition or an effect. Implied here is that an agent, such as for example, a pharmacologic substance or an organism, has brought about the effect. This includes induces, effects, evokes, and etiology.|带来-造成|被…引起
+31|执行|performs|执行、实行；完成、实现：达到一种行为状态。|Executes, accomplishes, or achieves an activity.|功能上相关|被…执行
+32|实施|carries_out|执行一项功能或完成一项手续或活动。包括处理，操作、运转，操纵、运用，实行、执行等。|Executes a function or performs a procedure or activity. This includes transacts, operates on, handles, and executes.|执行|被…实施
+33|展示|exhibits|表示、出示、证明等。|Shows or demonstrates.|执行|被…展示
+34|练习|practices|习惯地通常地进行、实行。|Performs habitually or customarily.|执行|
+35|发生于…情况下|occurs_in|在给定的条件、环境、时期里或给定的位置、场所或人口下发生。包括出现于、发生、产生、出现、存在等|Takes place in or happens under given conditions, circumstances, or time periods, or in a given location or population. This includes appears in, transpires, comes about, is present in, and exists in.|功能上相关|
+36|…的进程|process_of|行为，功能或状态？|Action, function, or state of.|发生于…情况下|
+37|使用|uses|在某些正在进行的活动中使用。包括应用、适用、利用、使用等。|Employs in the carrying out of some activity. This includes applies, utilizes, employs, and avails.|功能上相关|被…使用
+38|现象表达|manifestation_of|能直接地可见的或者能具体地明显地被表示的现象的部分，能显示潜在的过程的现象部分。包括表达，表明，展示，显示等。|That part of a phenomenon which is directly observable or concretely or visibly expressed, or which gives evidence to the underlying process. This includes expression of, display of, and exhibition of.|功能上相关|
+39|证实|indicates|为一个实体或过程在某一时间的存在提供证据。|Gives evidence for the presence at some time of an entity or process.|功能上相关|被…证实
+40|…的结果-效果|result_of|状态、情况、结果作为一个结果、效果或一个活动或过程的结论结局而发生。包括…的结果，…的效果，…的结局，…的成果，…的顶点，…的完成。|The condition, product, or state occurring as a consequence, effect, or conclusion of an activity or process. This includes product of, effect of, sequel of, outcome of, culmination of, and completion of.|功能上相关|
+41|时间上相关|temporally_related_to|时间上的提前、同时、随后相关|Related in time by preceding, co-occuring with, or following.|相关关系链|
+42|与…同时发生|co-occurs_with|在同一时间一起或者共同地、连带地发生。包括同时发生的，并发的，同时期发生的，伴发的，共存的，伴随产生的等。|Occurs at the same time as, together with, or jointly. This includes is co-incident with, is concurrent with, is contemporaneous with, accompanies, coexists with, and is concomitant with.|时间上相关|
+43|先于…发生|precedes|提前发生。包括比实际提前的时间，在…之前发生，提前的，预先的，优先的|Occurs earlier in time. This includes antedates, comes before, is in advance of, predates, and is prior to.|时间上相关|后于…发生
+45|概念上相关|conceptually_related_to|被某些理论性的概念、思想和想法相关。|Related by some abstract concept, thought, or idea.|相关关系链|
+46|与…类似概念|similar concepts|||概念上相关|
+47|概念上对应|contra|||概念上相关|
+48|…的评价|evaluation_of|判断某种属性或过程的价值或程度。|Judgment of the value or degree of some attribute or process.|概念上相关|
+49|…的程度-等级|degree_of|一个过程相对的强度，一种属性或性质的相对强度或数量。|The relative intensity of a process or the relative intensity or amount of a quality or attribute.|概念上相关|
+50|分析|analyzes|用确定的定量的或定型的方法研究或检查。|Studies or examines using established quantitative or qualitative methods.|概念上相关|被…分析
+51|分析评估…的影响|assesses_effect_of|分析功能或行为的影响或结果。|Analyzes the influence or consequences of the function or action of.|分析|
+52|…的测量值|measurement_of|被测量了的尺寸、数量、容量值|The dimension, quantity, or capacity determined by measuring.|概念上相关|
+53|测量|measures|确定或标记尺寸、数量、程度、容量等。|Ascertains or marks the dimensions, quantity, degree, or capacity of.|概念上相关|被…测量
+54|诊断|diagnoses|区别或鉴别特性或特征。|Distinguishes or identifies the nature or characteristics of.|概念上相关|被…诊断
+55|…的特性|property_of|…的特征、特性，.…的品质、性质。|Characteristic of, or quality of.|概念上相关|
+56|衍生的|derivative_of|化学上，一种物质与另一种物质在结构上相关，或者能够被其他的物质所产生。这仅仅指结构上的关联。不包括功能上的关联比如.…的代谢物，.…的产物，.…的类似物。|In chemistry, a substance structurally related to another or that can be made from the other substance. This is used only for structural relationships. This does not include functional relationships such as metabolite of, by product of, nor analog of.|概念上相关|
+57|…的发育阶段|developmental_form_of|个体成熟过程中的早期阶段。|An earlier stage in the individual maturation of.|概念上相关|
+58|…的方法|method_of|事件在执行或完成一个动作或过程中的方式或顺序。|The manner and sequence of events in performing an act or procedure|概念上相关|
+59|…的概念部分|conceptual_part_of|概念的一部分，或某个较大整体的组成成分。|Conceptually a portion, division, or component of some larger whole.|概念上相关|
+60|…之中的焦点问题|issue_in|讨论、研究、争论、辩论中的要点、关键。|Is an issue in or a point of discussion, study, debate, or dispute.|概念上相关|
+62|归…经|meridian_tropism|是药物对机体某部分的选择性作用。归是作用的归属，经是脏腑经络的概称||影响|

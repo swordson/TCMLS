@@ -8,10 +8,32 @@ f.write('Prefix: : <http://www.example.com/>\n')
 f.write('Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n')
 f.write('Ontology: <http://www.example.com/>\n')
 for i, name, name_en, definition, definition_en, upper, reverse in reader:
-    print(i)
-    f.write('ObjectProperty: ' + name + '\n')
-    f.write('    Annotations:\n')
-    f.write('        rdfs:label "eAnnotations:"\n')
+    if i != 'ID':
+        f.write('ObjectProperty: ' + name + '\n')
+        f.write('\n')
+        f.write('    Annotations:\n')
+        f.write('        rdfs:label "' + name + '"@zh,\n')
+        name_en = name_en.replace("_", " ")
+        f.write('        rdfs:label "' + name_en + '"@en,\n')
+        f.write('        rdfs:comment "' + definition + '"@zh,\n')
+        f.write('        rdfs:comment "' + definition_en + '"@en\n')
+        f.write('\n')
+        if upper != '':
+            f.write('    SubPropertyOf:\n')
+            f.write('        ' + upper + '\n')
+            f.write('\n')
+        #if reverse != '':
+            #f.write('    InverseOf:\n')
+            #f.write('        ' + reverse + '\n') 
+            #f.write('\n')
+        name_en = name_en.replace(" ", "_")
+        f.write('ObjectProperty: ' + name_en + '\n')
+        f.write('\n')
+        if upper != '':
+            f.write('    EquivalentTo:\n')
+            f.write('        ' + name + '\n')
+            f.write('\n')
+	
 f.flush()
 f.close()
 ##for row in spamReader:
