@@ -17,7 +17,7 @@ import com.cintcm.tcmls.MySQLUtils;
 public class loadCommentFromOracle {
 
 	private static String sql = "select t.f_master_id, t.f_1035 from t_ur_1027 t";
-	String toSql = "insert into graph (subject,property,value,user_id) values (?,?,?,?)";
+	private static String toSql = "insert into graph (subject,property,value,user_id) values (?,?,?,?)";
 	
 	
 
