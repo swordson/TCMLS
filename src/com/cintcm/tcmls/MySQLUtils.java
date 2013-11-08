@@ -20,7 +20,7 @@ public class MySQLUtils {
 
 			// URL指向要访问的数据库名scutcs
 
-			String url = "jdbc:mysql://localhost:3306/hamster1";
+			String url = "jdbc:mysql://localhost:3306/tcmls1";
 
 			// MySQL配置时的用户名
 
