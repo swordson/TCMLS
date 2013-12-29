@@ -17,7 +17,8 @@ import com.cintcm.tcmls.MySQLUtils;
 
 public class LoadVerbs {
 
-	private static String sql = "SELECT distinct verb FROM verbs";
+	private static String sql = "SELECT distinct verb,property FROM verbs";
+	
 
 	public void loadAndTransform(Connection con) throws SQLException {
 
@@ -26,7 +27,7 @@ public class LoadVerbs {
 		Set<String> verbSet = new HashSet<String>();
 
 		while (rs.next()) {
-			String verbs = rs.getString("verb");
+			String verbs = rs.getString("verb");			
 			if (verbs != null) {
 				for (String verb : verbs.split("\\$")) {
 					if ((verb != null) && (verb != "")) {
